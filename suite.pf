@@ -1,0 +1,15 @@
+-d    dmy
+-TM   31
+-TB   31
+-h    20
+-NL
+-s    128
+-D    500
+-l    500
+-mmax 65534
+-Bt   8000
+-Mm   4096
+-T    c:\temp
+-debugalert
+-zn
+-reusableObjects 0

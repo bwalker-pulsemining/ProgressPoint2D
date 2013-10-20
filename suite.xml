@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<ProUnitTestSuite>
+	<plugins/>
+	<TestCase name="tests\ProgressSymbolTableTests.p" seq="1"/>
+</ProUnitTestSuite>

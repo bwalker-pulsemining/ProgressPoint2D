@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<ProUnitDataPool>
+     <TestPool test="testSample">
+         <PoolRecord description="First Scenario">
+             <name>UserName</name>
+             <length>8</length>
+         </PoolRecord>
+         <PoolRecord description="Second Scenario">
+             <name>Michael Jackson</name>
+             <length>15</length>
+         </PoolRecord>
+         <PoolRecord description="Third Scenario">
+             <name>Santa Claus</name>
+             <length>11</length>
+         </PoolRecord>
+     </TestPool>
+     
+     <TestPool test="testChildren" name="rec2">
+     	<PoolRecord description="No Children">
+     		<counter>0</counter>
+     	</PoolRecord>
+     	
+     	<PoolRecord description="One Child">
+     		<counter>1</counter>
+     		<TestPool name="Items">
+     			<PoolRecord>
+     				<id>1</id>
+     			</PoolRecord>
+     		</TestPool>
+     	</PoolRecord>
+     	
+     	<PoolRecord description="Many Child">
+     		<counter>3</counter>
+     		<TestPool name="Items">
+     			<PoolRecord>
+     				<id>2</id>
+     			</PoolRecord>
+     			<PoolRecord>
+     				<id>3</id>
+     			</PoolRecord>
+     			<PoolRecord>
+     				<id>4</id>
+     			</PoolRecord>
+     		</TestPool>
+     	</PoolRecord>
+     </TestPool>
+</ProUnitDataPool>

@@ -1,0 +1,1 @@
+C:\Progress\OpenEdge102B\bin\_progres.exe -pf C:\projects\Pulse\ProgressSymbolTable\suite.pf -basekey "INI" -ini C:\projects\Pulse\ProgressSymbolTable\suite.ini -p C:\projects\Pulse\ProgressSymbolTable\src\startProUnitBatch.p -b -param "-projectFile=c:\projects\pulse\progresssymboltable\suite.xml -resultFile=testresults.xml -verbose=true"

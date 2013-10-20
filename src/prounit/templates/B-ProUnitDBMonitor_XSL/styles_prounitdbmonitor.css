@@ -1,0 +1,91 @@
+body {
+  background-color: #DDDDDD;
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+
+table {
+  background-color: white;
+  border: 0px;
+}
+
+.TransparentCell {
+  background-color: #DDDDDD;
+}
+
+.ReportTitle {
+  font-size: 14pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ReportLabel {
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.ReportValue{
+  font-size: 10pt;
+  text-decoration: none;
+}
+
+.ResultCell {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.ResultHeader {
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #808080;
+}
+
+.Success {
+  font-size: 10pt;
+  text-decoration: none;
+  color: black;
+  background-color: #99FF99;
+}
+
+.Fail {
+  font-size: 10pt;
+  text-decoration: none;
+  color: black;
+  background-color: #FF8080;
+}
+
+.Warning {
+  font-size: 10pt;
+  text-decoration: none;
+  color: black;
+  background-color: #FFCC66;
+}
+
+.TreeTitle {
+  font-size: 12pt;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.TreeSuccess {
+  font-size: 10pt;
+  text-decoration: none;
+  color: green;
+}
+
+.TreeWarning {
+  font-size: 10pt;
+  text-decoration: none;
+  color: #CC6600;
+  background-color:yellow;
+}
+
+.TreeFail {
+  font-size: 10pt;
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
